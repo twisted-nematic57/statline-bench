@@ -4,7 +4,7 @@ How fast can a TI-68k calculator change its status line's content in a real-worl
 
 The BASIC (*.89p) programs under "bench" directory are labeled according to the status line modification program they use. All are pre-tokenized. Before running the benchmarks, "sierpgdb.89d" should be RCL'd. They must be located in on-calc folder "ΔSTATL", which stands for "delta(difference) between status line programs".
 
-statline itself is included in the repo in the "deps" folder. apdreset is also used to deter the calc from sleeping automatically. Flib can be downloaded from [here.](https://www.ticalc.org/archives/files/fileinfo/117/11770.html) All of the dependencies should be *archived* in the "misc" folder on-calc. (They will likely remain archived in real-world scenarios; therefore this makes sense for this benchmark.)
+statline itself is included in the repo in the "deps" folder. apdreset is also used to deter the calc from sleeping automatically. Flib can be downloaded from [here.](https://www.ticalc.org/pub/89/asm/libs/flib.zip) All of the dependencies should be *archived* in the "misc" folder on-calc. (They will likely remain archived in real-world scenarios; therefore this makes sense for this benchmark.)
 
 ## Methodology
 
