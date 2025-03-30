@@ -30,8 +30,8 @@ Just for funsies I did a benchmark where the status line is updated 50000 times 
 
 | 1 -> 50000 incrementer            | Execution Time (s) |
 | --------------------------------- | ------------------ |
-| Flib (`flibtest`)               | 2242               |
-| **statline (`stlntest`)** | **777**      |
+| Flib               | 2242               |
+| **statline** | **777**      |
 
 In the synthetic benchmark, statline is... **~188% faster than Flib.** Unsurprisingly, it is not far off from the real-world Sierpinski triangle rendering benchmark.
 
